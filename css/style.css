@@ -484,12 +484,12 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 90%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: contain;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 
 /* -------------------------------------------
