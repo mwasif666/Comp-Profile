@@ -4249,3 +4249,26 @@ html.is-animating .mil-menu-frame {
   display: flex;
   justify-content: center;
 }
+
+/* Hover */
+.project-2-img{
+  height: 510px;
+  margin-bottom: 50px;
+}
+.project-2-img figure img {
+  width: 100%;
+  position: relative;
+  top: 0;
+  transition: 5s all;
+}
+
+.project-2-img figure:hover img {
+  top: -200%;
+}
+
+.project-2-img figure {
+  margin-bottom: 0 !important;
+  height: 510px;
+  display: block;
+  overflow: hidden;
+}
